@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Визитка</title>
+  <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script src="scripts/card-animation.js" type="text/javascript"></script>
+  <script src="scripts/navbar.js" type="text/javascript"></script>
+  <link href="styles.css" rel="stylesheet">
+  </link>
+</head>
+
+<body class="flexed">
+  <div id="inside_pagemax" class="inside_pagemax">
+    <div id="sticky-navbar" class="flexed">
+      <div class=navbutton><svg style="width: 27px;" version="1.1" viewbox="-32 -68 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path d="M442 334h-436q-6 0 -6 6v24q0 6 6 6h436q6 0 6 -6v-24q0 -6 -6 -6zM442 174h-436q-6 0 -6 6v24q0 6 6 6h436q6 0 6 -6v-24q0 -6 -6 -6zM442 14h-436q-6 0 -6 6v24q0 6 6 6h436q6 0 6 -6v-24q0 -6 -6 -6z" fill="currentColor"></path>
+        </svg>
+        <div class="navbar_title">Mordegaard - Визитка</div>
+      </div>
+      <ul id="inside_navbar">
+        <a href="#page_top">
+          <li><img src="materials/icons/house-user-solid.svg"/>Mordegaard</li>
+        </a>
+        <a href="#about">
+          <li><img src="materials/icons/user-solid.svg"/></i>Обо мне</li>
+        </a>
+        <a href="#scene">
+          <li><img src="materials/icons/portrait-solid.svg"/></i>Карточки</li>
+        </a>
+      </ul>
+    </div>
+    <div id="page_top"></div>
+    <div class="new_centered" id="centered-top">
+      <div class="title_text">
+        <div class="inside_title_text ava">
+          <div class="top_ava"></div>
+        </div>
+        <div class="inside_title_text text"><span id="main_title">MORDEGAARD</span><span id="under_title">Ретард под прикрытием</span></div>
+      </div>
+      <div class="title_img">
+        <span id=stars>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br /><br /><br />
+          &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br /><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br /><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>
+        <svg class="moon" version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMidYMid meet"
+viewbox="0 0 640 640" width="640" height="640"> <defs> <path d="M476.44
+306.44C476.44 390.32 408.34 458.42 324.46 458.42C240.58 458.42 172.48 390.32
+172.48 306.44C172.48 222.56 240.58 154.46 324.46 154.46C408.34 154.46 476.44
+222.56 476.44 306.44Z" id="afWCN9Ss5"></path> <lineargradient
+id="gradientaybO7mrA" gradientunits="userSpaceOnUse" x1="456.14" y1="148.51"
+x2="242.28" y2="424.75"> <stop style="stop-color: #fffff0;stop-opacity: 1"
+offset="0%"></stop> <stop style="stop-color: #ffffa6;stop-opacity: 1"
+offset="100%"></stop> </lineargradient> <path d="M390.32 219.8C390.32 238.38
+375.24 253.47 356.66 253.47C338.08 253.47 323 238.38 323 219.8C323 201.22 338.08
+186.14 356.66 186.14C375.24 186.14 390.32 201.22 390.32 219.8Z"
+id="b3tW1WWuIA"></path> <lineargradient id="gradientg5P0bFdw7t"
+gradientunits="userSpaceOnUse" x1="370.52" y1="205.94" x2="325.97" y2="244.55">
+<stop style="stop-color: #d7d078;stop-opacity: 1" offset="0%"></stop> <stop
+style="stop-color: #ffffdc;stop-opacity: 1" offset="100%"></stop>
+</lineargradient> <path d="M306.24 315.35C306.24 339.94 286.27 359.9 261.68
+359.9C237.09 359.9 217.13 339.94 217.13 315.35C217.13 290.76 237.09 270.79
+261.68 270.79C286.27 270.79 306.24 290.76 306.24 315.35Z" id="ea5FWyI2T"></path>
+<lineargradient id="gradientc2QuPWCOeF" gradientunits="userSpaceOnUse"
+x1="270.86" y1="290.45" x2="228.92" y2="356.89"> <stop style="stop-color:
+#d7d078;stop-opacity: 1" offset="0%"></stop> <stop style="stop-color:
+#ffffdc;stop-opacity: 1" offset="100%"></stop> </lineargradient> <path
+d="M390.32 373.76C390.32 384.69 381.22 393.56 370.01 393.56C358.8 393.56 349.7
+384.69 349.7 373.76C349.7 362.83 358.8 353.96 370.01 353.96C381.22 353.96 390.32
+362.83 390.32 373.76Z" id="b1ifgLEO"></path> <lineargradient
+id="gradientb6eRRqmbp" gradientunits="userSpaceOnUse" x1="378.97" y1="366.77"
+x2="347.31" y2="395.31"> <stop style="stop-color: #d7d078;stop-opacity: 1"
+offset="0%"></stop> <stop style="stop-color: #ffffdc;stop-opacity: 1"
+offset="100%"></stop> </lineargradient> <path d="M386.32 320.54C399.31 320.42
+408.91 332.6 405.76 345.2C405.03 348.14 406.47 342.38 405.09 347.9C403.32 354.95
+396.99 359.9 389.71 359.9C330.21 359.9 174.7 359.9 117.85 359.9C105.18 359.9
+96.19 347.54 100.1 335.49C100.9 333.04 99.28 338.01 101.06 332.54C102.86 327
+107.99 323.23 113.81 323.17C173.45 322.6 329.87 321.09 386.32 320.54Z"
+id="c1ibc7qvDn"></path> <path d="M499.41 373.77C517.81 373.49 532.88 388.34
+532.88 406.75C532.88 413.59 532.88 402.44 532.88 409.73C532.88 426.99 518.89
+440.98 501.63 440.97C439.06 440.96 282.3 440.93 219.66 440.92C202.59 440.92
+188.75 427.08 188.75 410.01C188.75 403.67 188.75 414.99 188.75 408.51C188.75
+391.78 202.18 378.15 218.91 377.9C281.71 376.98 437.27 374.68 499.41 373.77Z"
+id="a3TjMfkggI"></path> <path d="M554.4 253.47C566.52 253.29 576.45 263.07
+576.45 275.2C576.45 279.71 576.45 272.36 576.45 277.17C576.45 288.54 567.23
+297.75 555.86 297.75C514.63 297.74 411.35 297.72 370.07 297.72C358.82 297.71
+349.7 288.6 349.7 277.35C349.7 273.17 349.7 280.63 349.7 276.36C349.7 265.34
+358.55 256.35 369.58 256.19C410.95 255.58 513.46 254.07 554.4 253.47Z"
+id="bp5UVVmBv"></path> </defs> <g> <g> <g> <use xlink:href="#afWCN9Ss5"
+opacity="1" fill="url(#gradientaybO7mrA)"></use> <g> <use
+xlink:href="#afWCN9Ss5" opacity="1" fill-opacity="0" stroke="#1df9bf"
+stroke-width="0" stroke-opacity="1"></use> </g> </g> <g> <use
+xlink:href="#b3tW1WWuIA" opacity="1" fill="url(#gradientg5P0bFdw7t)"></use> <g>
+<use xlink:href="#b3tW1WWuIA" opacity="1" fill-opacity="0" stroke="#53de24"
+stroke-width="0" stroke-opacity="1"></use> </g> </g> <g> <use
+xlink:href="#ea5FWyI2T" opacity="1" fill="url(#gradientc2QuPWCOeF)"></use> <g>
+<use xlink:href="#ea5FWyI2T" opacity="1" fill-opacity="0" stroke="#53de24"
+stroke-width="0" stroke-opacity="1"></use> </g> </g> <g> <use
+xlink:href="#b1ifgLEO" opacity="1" fill="url(#gradientb6eRRqmbp)"></use> <g>
+<use xlink:href="#b1ifgLEO" opacity="1" fill-opacity="0" stroke="#53de24"
+stroke-width="0" stroke-opacity="1"></use> </g> </g> <g> <use
+xlink:href="#c1ibc7qvDn" opacity="0.86" fill="#504b6e" fill-opacity="1"></use>
+<g> <use xlink:href="#c1ibc7qvDn" opacity="0.86" fill-opacity="0"
+stroke="#87be3b" stroke-width="0" stroke-opacity="1"></use> </g> </g> <g> <use
+xlink:href="#a3TjMfkggI" opacity="0.86" fill="#504b6e" fill-opacity="1"></use>
+<g> <use xlink:href="#a3TjMfkggI" opacity="0.86" fill-opacity="0"
+stroke="#87be3b" stroke-width="0" stroke-opacity="1"></use> </g> </g> <g> <use
+xlink:href="#bp5UVVmBv" opacity="0.86" fill="#504b6e" fill-opacity="1"></use>
+<g> <use xlink:href="#bp5UVVmBv" opacity="0.86" fill-opacity="0"
+stroke="#87be3b" stroke-width="0" stroke-opacity="1"></use> </g> </g> </g> </g>
+</svg>
+      </div>
+      <div class="line_text">
+        <div>
+          <span class="dot">◊</span>
+          <span class="non_dot">В [не]активной разработке...</span>
+          <span class="dot">◊</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="new_body">
+      <div class="me-nav" id="me-nav">
+        <div class="label flexed" style="margin-bottom: 18px;"><span>Я в соц. сетях</span></div>
+        <ul>
+          <a href="https://vk.com/mordegaard" target="_blank">
+            <li id="vk" class="flexed"><img src="materials/icons/vk-brands.svg"/></li>
+          </a>
+          <a href="https://www.instagram.com/mordegaard/" target="_blank">
+            <li id="instagram" class="flexed"><img src="materials/icons/instagram-brands.svg"/></li>
+          </a>
+          <a href="https://mordegaard.blogspot.com/" target="_blank">
+            <li id="blogger" class="flexed">
+              <svg xmlns="http://www.w3.org/2000/svg" width="379.494" height="213.088"
+viewbox="0 0 379.494 213.088" style="max-width: 60%"> <defs> <style> .cls-1 {
+fill: #fff; stroke: gray; stroke-width: 0.15px; fill-rule: evenodd; } </style>
+</defs> <path id="MRDGRD1" data-name="MRDGRD1" class="cls-1"
+d="M191.152,160.761a45.563,45.563,0,0,0-14.021-16.024q-8.48-5.85-20.8-5.855a37.181,37.181,0,0,0-21.879,6.934q-9.865,6.933-14.175,21.416L66.968,348.424h62.554l19.413-71.8q4.623-17.563,8.012-30.969t5.855-25.73q2.463,5.243,5.085,10.785t6.163,12.172q3.538,6.63,7.857,14.945t9.861,18.8L219.5,328.7a55.171,55.171,0,0,0,8.166,12.171,36.306,36.306,0,0,0,8.474,6.934,26.858,26.858,0,0,0,9.244,3.235,75.825,75.825,0,0,0,21.571,0,26.931,26.931,0,0,0,9.244-3.235,36.408,36.408,0,0,0,8.474-6.934,55.346,55.346,0,0,0,8.166-12.171l27.734-51.77q10.471-20.026,16.948-33.126t11.71-23.881q2.462,12.639,5.854,25.884t8.32,30.815l19.414,71.8H446.3L394.222,167.232q-4.318-14.481-14.02-21.416a36.5,36.5,0,0,0-21.725-6.934q-12.639,0-21.108,6.009a47.814,47.814,0,0,0-14.021,15.87l-32.972,58.548q-6.781,12.018-11.864,20.955t-8.936,16.177q-3.857,7.245-6.779,12.943T257.4,280.631q-2.773-5.547-5.7-11.4t-6.779-12.943q-3.857-7.084-8.936-16.177T224.124,219ZM224.091,204Q191.182,147,257,147t32.909,57Q257,261,224.091,204Z"
+transform="translate(-66.894 -138.8)" /> </path> </svg>
+              </li>
+          </a>
+        </ul>
+        <div class="label flexed" style="margin-top: 18px;"></div>
+      </div>
+
+      <div id="about" class="about">
+        <div class="about_text">
+          <span>
+            Кто бы мог подумать, что писать о себе так сложно?
+            <br /><br />
+            Успешный, обаятельный, талантливый и очень ЧСВшный Front End девелопер занимается вёрсткой кроссплатформерных веб-страниц и написанием клиентской части кода.
+          </span>
+          <div class="about_icon">
+            <img src="materials/icons/user-solid.svg"/>
+          </div>
+        </div>
+        <div class="about_img"></div>
+      </div>
+
+      <div class="line phone"></div>
+
+      <div class="banner">
+        <video width="960" height="460" preload="auto" autoplay="true" loop="true" muted="muted">
+          <source src="materials/paint.mp4" type="video/mp4">
+          </source>
+        </video>
+        <div class="fs bg"></div>
+        <div class="banner_info flexed">
+          <span>
+            ПОПРОБУЙТЕ МОЙ ГРАФИЧЕСКИЙ РЕДАКТОР
+            <br />
+            <span style="font-size: 0.5em;">Базовый онлайн-редактор графики для простейших операций</span>
+          </span>
+        </div>
+        <a class="fs" href="https://mordegaard.blogspot.com/p/paint-test.html"></a>
+      </div>
+
+      <div class="about flip">
+        <div class="about_img"></div>
+        <div class="about_text">
+          <span>
+            Мои ближайшие цели:
+            <ul style="font-size: 0.84em;">
+              <li>собрать коллекцию изоленты всех цветов радуги</li>
+              <li>научиться сдерживать слёзы, когда вижу полупустую пачку чая</li>
+              <li>похудеть к 2026-ому году</li>
+              <li><strike>начать презирать игроков в доту ещё больше</strike>✓</li>
+              <li>дописать последний пункт</li>
+              <li></li>
+            </ul>
+          </span>
+          <div class="about_icon">
+            <img src="materials/icons/tasks-solid.svg"/>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="scene-container" id="scene">
+        <div class="scene scene--card">
+          <div class="card" data-parallax-deep="8">
+            <div class="card__face card__face--front" style="background:url(materials/photo4.jpg); background-size: cover;">
+            </div>
+            <div class="card__face card__face--back"></div>
+          </div>
+        </div>
+
+        <div class="scene scene--card">
+          <div class="card" data-parallax-deep="8">
+            <div class="card__face card__face--front" style="background:url(materials/photo5.png);background-size: cover;
+    background-position: 50%;"></div>
+            <div class="card__face card__face--back"></div>
+          </div>
+        </div>
+
+        <div class="scene scene--card">
+          <div class="card" data-parallax-deep="8">
+            <div class="card__face card__face--front">Reserved</div>
+            <div class="card__face card__face--back" style="font-size: 1.8em;"></div>
+          </div>
+        </div>
+
+        <div class="scene scene--card">
+          <div class="card" data-parallax-deep="8">
+            <div class="card__face card__face--front">Reserved</div>
+            <div class="card__face card__face--back" style="font-size: 1.8em;"></div>
+          </div>
+        </div>
+
+        <div class="scene scene--card">
+          <div class="card" data-parallax-deep="8">
+            <div class="card__face card__face--front">Reserved</div>
+            <div class="card__face card__face--back"></div>
+          </div>
+        </div>
+
+        <div class="scene scene--card">
+          <div class="card" data-parallax-deep="8">
+            <div class="card__face card__face--front">Reserved</div>
+            <div class="card__face card__face--back"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="bg-image"><object class="BLOG_video_class" contentid="3544b1dc96b8bd12" width="600" height="498" id="BLOG_video-3544b1dc96b8bd12" aria-label="Загрузить видео"></object></div>
+
+      <div id="svg-footer">
+        <svg style="
+    width: 100%;
+    height: 100%;
+" height="300" width="1920" viewbox="0 -10 1920 280" preserveaspectratio="xMidYMid slice" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <path
+              d="M2016.53 435.12C2059.99 353.4 2081.42 302.83 2080.82 283.41C2080.82 283.41 1949.89 156.92 1917.16 125.3C1862.48 72.49 1775.37 73.89 1722.42 128.43C1607.01 247.33 1477.58 296 1334.13 274.46C1145.84 308.33 1057.77 278.43 1057.77 278.43C1057.77 278.43 827.99 284.06 663.69 113.87C499.4 -56.32 410.94 50.3 307.52 128.84C204.11 207.37 146.9 92.92 146.9 92.92C146.9 92.92 40.71 -59.47 -67.6 26.08C-175.91 111.62 -90.55 410.18 -90.55 410.18C190.4 413.5 892.76 421.82 2016.53 435.12Z"
+              id="dr5sHk5oZ"></path>
+            <path
+              d="M-18.71 79.31C-18.71 79.31 -22.21 -142.67 541.98 156.14C650.77 212.25 781.42 236.78 781.42 236.78C830.1 250.65 1301.77 288.32 1350.46 302.19C1350.46 302.19 1435.8 298.42 1457.14 297.47C1525.95 294.43 1592.81 273.69 1651.26 237.25C1790.57 150.4 1912.33 122.37 2016.53 153.14C2016.53 153.14 2092.35 443.46 2092.35 443.46C2048.06 452.58 1826.58 498.14 1427.91 580.14L605.83 562.19L-56.62 517.29C-36.41 283.7 -23.77 137.71 -18.71 79.31Z"
+              id="a4TCL7XyJ"></path>
+          </defs>
+          <g>
+            <g>
+              <g>
+                <use xlink:href="#dr5sHk5oZ" opacity="1" fill="#454178" fill-opacity="0.5"></use>
+                <g>
+                  <use xlink:href="#dr5sHk5oZ" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use>
+                </g>
+              </g>
+              <g>
+                <use xlink:href="#a4TCL7XyJ" opacity="1" fill="#454178" fill-opacity="1"></use>
+                <g>
+                  <use xlink:href="#a4TCL7XyJ" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="1" stroke-opacity="0"></use>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+    </div>
+    <div id="footer" class="flexed">
+      <div class="contacts flexed">
+          <span>Github - <a href="https://github.com/Mordegaard">https://github.com/Mordegaard</a></span>
+          <span>Блог - <a href="https://mordegaard.blogspot.com/">https://mordegaard.blogspot.com/</a></span>
+          <span>Почта - mrdgrd2@gmail.com</span>
+          <div class="flexed"><img src="materials/icons/list-alt-regular.svg"/></div>
+      </div>
+      <div class="line"></div>
+      <div class="flexed" style="justify-content: space-around">
+        <span class="footer-span" style="width: 33%;">Данный сайт использует Cookies от Google для сбора аналитики, а также мои собственные Cookies для корректной работы некоторых функций сайта.</span>
+        <span class="footer-span" style="width: 33%;">Все материалы, представленные на данном сайте являются собственностью автора или партнёров автора.</span>
+      </div>
+      <span class="footer-span">Если у вас возникли какие-либо вопросы, предложения или претензии, отправьте писмо на почту mrdgrd2@gmail.com</span>
+    </div>
+</body>
+
+</html>
